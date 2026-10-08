@@ -1,7 +1,7 @@
 {
-  "programVersion": "1.1.0",
-  "defsVersion": "2026.10.08",
-  "notes": "Baseline definitions (CrySome RAT + smarter behavior detection).",
+  "programVersion": "1.2.0",
+  "defsVersion": "2026.10.09",
+  "notes": "AzScan 1.2.0 - smart real-time download protection that auto-scans every new download, Mark-of-the-Web internet-origin awareness, plain-English threat typing (Trojan / RAT / ransomware / info-stealer), and known-test-file labelling so EICAR shows as a safe test file. Keeping your definitions current keeps you protected against the latest known threats.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
-  "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/latest"
+  "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe"
 }
