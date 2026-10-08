@@ -1,0 +1,7 @@
+{
+  "programVersion": "1.1.0",
+  "defsVersion": "2026.10.08",
+  "notes": "Baseline definitions (CrySome RAT + smarter behavior detection).",
+  "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
+  "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/latest"
+}
