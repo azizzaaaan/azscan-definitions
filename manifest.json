@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.3.1",
+  "programVersion": "1.3.2",
   "defsVersion": "2026.10.10",
-  "notes": "AzScan 1.3.1 - adds one-click install of the FULL threat database (~56 million known-malware fingerprints) on top of 1.3.0's ransomware family rules (WannaCry+), real .exe behavior detection, disguised-file detection, active auto-quarantine, and ransomware canary files that stop the attacking process.",
+  "notes": "AzScan 1.3.2 - adds a 'Quarantine all' button to deal with every detected threat in one click, on top of 1.3.1's one-click full threat-database (~56M fingerprints) install, ransomware family rules (WannaCry+), real .exe behavior detection, active auto-quarantine, and ransomware canary protection.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "86F7B49BBCF5C12CC5ED3AA6EDEB3A6E16CF292B8A36553B2DE8D03EE673DCB4",
+  "programSha256": "A7D15BF79EF456B83AFD2D42E120AEA727AB4677624C0D49AB90310AC79941B6",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "0EBFEC05F57A3C447FECAA3881B10F2FC8F1363A46DF4B35441C8379FF25C0E8",
+  "programSha256Demo": "98658BAE19E217345225C0E4E3F60971A452B2D59A4CA771EAFA4582C5F47D7F",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
