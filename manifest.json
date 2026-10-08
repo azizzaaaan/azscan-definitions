@@ -1,17 +1,26 @@
 {
-  "programVersion": "1.3.3",
+  "programVersion": "1.3.4",
   "defsVersion": "2026.10.10",
-  "notes": "AzScan 1.3.3 - the real-time guard and manual scans no longer fight each other, and threat alerts are now clean in-app notifications that coalesce (one toast counting up) instead of a blocking popup per file. Plus 1.3.2's Quarantine-all, 1.3.1's one-click 56M-hash database install, ransomware family rules, active auto-quarantine, and canary ransomware protection.",
+  "notes": "AzScan 1.3.4 - adds a lighter 'Essential' database option (~218 MB, 7.5M modern SHA-256/SHA-1 hashes) alongside the Full 56M database, plus a dashboard prompt to install the database. Includes 1.3.3's scan/guard coordination and clean coalescing toast notifications.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "57373878B60D817C2C069CE6F04A69B40362A15C59BD44D616C4E91324C55723",
+  "programSha256": "7D37EC70A789C4AF07A4C0509B38DB02576AEA9B18C773126824027613A3CAB7",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "366FD01F70312C76155FE56EC146EF5D6612E4450FED0B4DC0D2805DF77E90E0",
+  "programSha256Demo": "0F9376E7EE4A2FA188868BF1F0BDF3EADA0F6AF8F711C0DD41FAE5D1FC09D352",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
     "files": [
       { "name": "md5.bin",       "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/md5.bin",       "bytes": 776099376 },
+      { "name": "sha256.bin",    "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha256.bin",    "bytes": 204975488 },
+      { "name": "sha1.bin",      "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha1.bin",      "bytes": 23089940 },
+      { "name": "manifest.json", "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/manifest.json", "bytes": 207 }
+    ]
+  },
+  "databaseLite": {
+    "hashCount": 7559981,
+    "totalBytes": 228065635,
+    "files": [
       { "name": "sha256.bin",    "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha256.bin",    "bytes": 204975488 },
       { "name": "sha1.bin",      "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha1.bin",      "bytes": 23089940 },
       { "name": "manifest.json", "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/manifest.json", "bytes": 207 }
