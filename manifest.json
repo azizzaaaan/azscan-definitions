@@ -1,7 +1,10 @@
 {
   "programVersion": "1.2.0",
   "defsVersion": "2026.10.09",
-  "notes": "AzScan 1.2.0 - smart real-time download protection that auto-scans every new download, Mark-of-the-Web internet-origin awareness, plain-English threat typing (Trojan / RAT / ransomware / info-stealer), and known-test-file labelling so EICAR shows as a safe test file. Keeping your definitions current keeps you protected against the latest known threats.",
+  "notes": "AzScan 1.2.0 - smart real-time download protection that auto-scans every new download, Mark-of-the-Web internet-origin awareness, plain-English threat typing (Trojan / RAT / ransomware / info-stealer), known-test-file labelling so EICAR shows as a safe test file, and fully automatic self-update (the app downloads and installs new versions itself).",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
-  "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe"
+  "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
+  "programSha256": "91A8FACF98DAC8F37D3CC52C274AFE75CC1C678E2020B349C207DAAF89F5063C",
+  "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
+  "programSha256Demo": "5E5389E326E4A5AF04C3921305DBB378A39E50A12B245B7F5127BDA228973CAE"
 }
