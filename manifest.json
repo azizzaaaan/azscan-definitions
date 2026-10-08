@@ -1,10 +1,10 @@
 {
-  "programVersion": "1.2.0",
-  "defsVersion": "2026.10.09",
-  "notes": "AzScan 1.2.0 - smart real-time download protection that auto-scans every new download, Mark-of-the-Web internet-origin awareness, plain-English threat typing (Trojan / RAT / ransomware / info-stealer), known-test-file labelling so EICAR shows as a safe test file, and fully automatic self-update (the app downloads and installs new versions itself).",
+  "programVersion": "1.3.0",
+  "defsVersion": "2026.10.10",
+  "notes": "AzScan 1.3.0 - BIG security update: catches WannaCry and 8 other ransomware families by their fingerprint (any variant, no hash needed), real behavior detection for .exe malware that runs cmd/PowerShell/LOLBins and steals browser & wallet data, disguised-file (double-extension) detection, ACTIVE protection (auto-quarantine now actually quarantines), and ransomware canary files that detect an attack instantly and stop the process responsible.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "91A8FACF98DAC8F37D3CC52C274AFE75CC1C678E2020B349C207DAAF89F5063C",
+  "programSha256": "3387D1B1206F995BDC878B23607D8E04A6BA8150A089934D7984A3DC53A94693",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "5E5389E326E4A5AF04C3921305DBB378A39E50A12B245B7F5127BDA228973CAE"
+  "programSha256Demo": "06BCEFD7421BE173EF7BB026FC16DCA8E1D56D2B634EBFEFDACB40B46696BFC2"
 }
