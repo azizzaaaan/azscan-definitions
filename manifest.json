@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.3.4",
-  "defsVersion": "2026.10.10",
-  "notes": "AzScan 1.3.4 - adds a lighter 'Essential' database option (~218 MB, 7.5M modern SHA-256/SHA-1 hashes) alongside the Full 56M database, plus a dashboard prompt to install the database. Includes 1.3.3's scan/guard coordination and clean coalescing toast notifications.",
+  "programVersion": "1.4.0",
+  "defsVersion": "2026.10.11",
+  "notes": "AzScan 1.4.0 - catches AI-generated / script malware (Python, VBScript, JScript, batch) that a hash database can't: Fernet ransomware, pynput keyloggers, socket reverse shells, wipers, Discord token stealers, fork bombs and MBR-overwrite trojans (e.g. MEMZ). New named rules: Ransom.Script.Fernet, Backdoor.Script.Python, Keylogger.Python.Pynput, Trojan.MEMZ, Trojan.ForkBomb and more. Also: real-time protection no longer scans AzScan's own source tree, and the protection switches apply instantly.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "7D37EC70A789C4AF07A4C0509B38DB02576AEA9B18C773126824027613A3CAB7",
+  "programSha256": "87C2B3D4199AC3EDA76C14BE15D50331823C9B72D3D3801445AD0F54915B8209",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "0F9376E7EE4A2FA188868BF1F0BDF3EADA0F6AF8F711C0DD41FAE5D1FC09D352",
+  "programSha256Demo": "29A41770220976FD5EFC72281808CB5D8C567C1D6711A9D3FB992190A62A1FBA",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
