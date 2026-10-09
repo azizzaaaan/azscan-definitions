@@ -7,6 +7,8 @@
   "programSha256": "7D6298843226BB16660989F6F9C7DD7D1556365050FCED0F721E93A4EEB8C6E2",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
   "programSha256Demo": "55D439DC0D3CF408EDC2AE6EFA2CA122F7CC6D7543A6E5610866B9358F6146E8",
+  "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
+  "telemetryKey": "azscan-fleet-key-01",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
