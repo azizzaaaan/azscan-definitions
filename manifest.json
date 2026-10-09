@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.4.1",
-  "defsVersion": "2026.10.11",
-  "notes": "AzScan 1.4.1 - catches AI-generated / script malware (Python, VBScript, JScript, batch) that a hash database can't: Fernet ransomware, pynput keyloggers, socket reverse shells, wipers, Discord token stealers, fork bombs and MBR-overwrite trojans (e.g. MEMZ). New named rules: Ransom.Script.Fernet, Backdoor.Script.Python, Keylogger.Python.Pynput, Trojan.MEMZ, Trojan.ForkBomb and more. Real-time protection no longer scans AzScan's own files, the protection switches apply instantly, and the dashboard now always shows your version with a Check-for-updates button.",
+  "programVersion": "1.4.2",
+  "defsVersion": "2026.10.12",
+  "notes": "AzScan 1.4.2 - broader script/AI-malware detection (Telegram & webhook exfiltration, ctypes keyloggers, webcam spyware, Defender-disabling droppers, VBS/JS binary droppers via Downloader.Script.XmlHttp), the real-time guard now honors your Exclusions list, and the dashboard shows a live activity feed + real quarantine count. Includes 1.4.x AI-malware rules (Ransom.Script.Fernet, Backdoor.Script.Python, Keylogger.Python.Pynput, Trojan.MEMZ, Trojan.ForkBomb).",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "991F7D905A704AFE41124C4D460CF342FB52914524D04006E7442DE39032E361",
+  "programSha256": "13ED0E8DA991AB7B24C895C0C332EAED2F66392C235E7A63CCC3CFC064E5D2DA",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "9F4F5B27E944F628A31AE1F41C11654F330F1D2E7BFA6373558F43E38CD7F880",
+  "programSha256Demo": "1765273F7FAA4DA9C1C0D833C6B3022276493CC41349EE6659CEB1F1E44C15E3",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
