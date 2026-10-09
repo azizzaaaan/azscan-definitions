@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.9.0",
+  "programVersion": "1.10.0",
   "defsVersion": "2026.10.12",
-  "notes": "AzScan 1.9.0 - redesigned interface: a cleaner security-console look with a tuned deep-slate + cyan palette, cards with subtle depth, and polished buttons and icons. Includes the owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
+  "notes": "AzScan 1.10.0 - adds anti-zip-bomb protection: archives are checked for decompression bombs (both flat high-ratio bombs and nested ones like 42.zip) using central-directory metadata and a bounded structural scan, so a malicious archive is named and quarantined instead of silently wedging the scanner. Includes the owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "E266E27AE3E21F43307EEAAF57DD4EF386E7DF0EAAD4C9F8B63A29B38CBF2486",
+  "programSha256": "5DCF8BA19415BA5B98FC798926803A2E32513DB6D7EB5AB52EEEED4C779B9D94",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "60BF2D5D8FADD76FD11A31A3A77F66F4365234BF4CF9C61F6B9DE14BBFA8512F",
+  "programSha256Demo": "90A5A9D5CEC4AB8E83DCB4FDA42DEFD30EA8DD2C6CEFB841A1241A8E813B9603",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
