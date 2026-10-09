@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.8.0",
+  "programVersion": "1.9.0",
   "defsVersion": "2026.10.12",
-  "notes": "AzScan 1.8.0 - adds an owner fleet dashboard. With the new Terms accepted, each install reports anonymous aggregate stats (a random install id, edition/version/OS, and counters for threats blocked, files scanned and quarantined, plus detection names) so the owner can see how many PCs run AzScan and how many threats it has stopped. No file contents, paths or personal data are collected. Pressing Update now requires accepting the updated Terms. Builds on RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
+  "notes": "AzScan 1.9.0 - redesigned interface: a cleaner security-console look with a tuned deep-slate + cyan palette, cards with subtle depth, and polished buttons and icons. Includes the owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "7D6298843226BB16660989F6F9C7DD7D1556365050FCED0F721E93A4EEB8C6E2",
+  "programSha256": "E266E27AE3E21F43307EEAAF57DD4EF386E7DF0EAAD4C9F8B63A29B38CBF2486",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "55D439DC0D3CF408EDC2AE6EFA2CA122F7CC6D7543A6E5610866B9358F6146E8",
+  "programSha256Demo": "60BF2D5D8FADD76FD11A31A3A77F66F4365234BF4CF9C61F6B9DE14BBFA8512F",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
