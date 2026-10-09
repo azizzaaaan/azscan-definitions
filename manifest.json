@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.4.2",
+  "programVersion": "1.5.0",
   "defsVersion": "2026.10.12",
-  "notes": "AzScan 1.4.2 - broader script/AI-malware detection (Telegram & webhook exfiltration, ctypes keyloggers, webcam spyware, Defender-disabling droppers, VBS/JS binary droppers via Downloader.Script.XmlHttp), the real-time guard now honors your Exclusions list, and the dashboard shows a live activity feed + real quarantine count. Includes 1.4.x AI-malware rules (Ransom.Script.Fernet, Backdoor.Script.Python, Keylogger.Python.Pynput, Trojan.MEMZ, Trojan.ForkBomb).",
+  "notes": "AzScan 1.5.0 - new Anti-Trojan Engine: capability analysis mapped to MITRE ATT&CK with kill-chain-breadth conviction. It maps what a file DOES to real ATT&CK techniques (injection, ransomware, credential theft, defense evasion, exfiltration) and convicts any file whose behavior spans the whole attack lifecycle - catching brand-new, repacked and AI-generated trojans no hash database can. Includes the 1.4.x AI/script malware detection and the 56M-hash + YARA-style + heuristic stack.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "13ED0E8DA991AB7B24C895C0C332EAED2F66392C235E7A63CCC3CFC064E5D2DA",
+  "programSha256": "36D4CEC8D196C3BF6019E088EB4578129AECD4EA57AA79AB1B2080E1F48817B3",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "1765273F7FAA4DA9C1C0D833C6B3022276493CC41349EE6659CEB1F1E44C15E3",
+  "programSha256Demo": "F35B81436605278FAF611531DECED16883DFFFD98B91D92E3438E44738365B79",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
