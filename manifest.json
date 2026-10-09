@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.11.0",
-  "defsVersion": "2026.10.13",
-  "notes": "AzScan 1.11.0 - smarter anti-zip-bomb + anti-troll. Zip-bomb detection now also catches 'smart' bombs that LIE about their size in the directory (it verifies the real decompressed output under a bounded cap) and auto-quarantines a confirmed bomb. New anti-troll coverage: self-replicating (worm) scripts that copy themselves to spread, and screen/desktop defacers that flip the display, invert colours via the gamma ramp, swap the mouse buttons, hijack the wallpaper or hide desktop icons - mapped to MITRE ATT&CK (T1091 replication, T1491.001 internal defacement). Includes owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
+  "programVersion": "1.13.0",
+  "defsVersion": "2026.10.14",
+  "notes": "AzScan 1.13.0 - all-new interface + much broader malware coverage. The whole app is rebuilt around the new design (dashboard, scan, quarantine, protection, updates and about - every page), with live threat counts, real scans and one-click quarantine restore. Detection is widened well beyond trojans and ransomware: cryptominers (XMRig / stratum pools), network worms (EternalBlue / MS17-010), kernel rootkits (DKOM process-unlinking), clipboard bankers that swap crypto-wallet addresses, IRC/DDoS bots, banking form-grabbers, credential dumpers (Mimikatz / LSASS), Meterpreter and RAT families (njRAT, Remcos) and fileless PowerShell loaders - each mapped to MITRE ATT&CK. Keeps the smart anti-zip-bomb + anti-troll engine, owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "C25C9E567682B7E00DAE6793EA0C8AF49279F7E3CB2C9645A4089B748BF9B175",
+  "programSha256": "8C2A38E95EFF9A3F3C663360E40BF9A3D872FE3AC5B4477FF93BAECB5E9C253F",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "04CDF0C3C90B70FFB2031ED5F2DFA82908FB641B87E30F8803FB54869561D555",
+  "programSha256Demo": "A7930C1E2C183B0DAC0AE80CF8E4BB9955E07F5AF5027489E2F05CAA7098E859",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
