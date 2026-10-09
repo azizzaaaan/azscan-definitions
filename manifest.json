@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.6.0",
+  "programVersion": "1.7.0",
   "defsVersion": "2026.10.12",
-  "notes": "AzScan 1.6.0 - new RansomShield: an in-process behavioral ransomware engine (no driver, no service, no admin). It fuses the layers pro defenders use - decoy canaries, mass-modification bursts, rename-to-ransomware-extension, and ransom-note creation - detects an attack ON YOUR REAL FILES in progress, identifies the culprit process and stops it, and maps to MITRE ATT&CK T1486/T1485/T1490. Builds on 1.5.0's Anti-Trojan ATT&CK engine and the AI/script malware + 56M-hash stack.",
+  "notes": "AzScan 1.7.0 - a smarter mind + self-defense. New embedded-IOC intelligence reads the hard-coded command-and-control, exfiltration and payment indicators malware carries (Tor .onion addresses, public IP:port C2, paste/anon staging hosts, ngrok/cloudflared tunnels, Bitcoin wallets) - catching intent even in unknown or AI-generated samples, all mapped to MITRE ATT&CK. New self-defense: while real-time protection is on, a cooperating watchdog relaunches the app if it is killed and re-asserts its auto-start. Builds on the Anti-Trojan ATT&CK engine, RansomShield and the AI/script + 56M-hash stack.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "92C957597D4FD3A7F24DEE06FBD8B26CB5DAFCA641F4414F3F5046B280D38335",
+  "programSha256": "CDF62C08662ED7567262E9E4FE7AAFFF3FB08B73EE058A0B4ADA3305E2128BAE",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "4D76A889F8A427352BEA3A905DA7B783FEF11E1F1EBFD182A20AE3BF617013C0",
+  "programSha256Demo": "1206307D096704B4A98EF6E51933D72C89BB418E962925127C3E79C5BB4F91E0",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
