@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.7.0",
+  "programVersion": "1.8.0",
   "defsVersion": "2026.10.12",
-  "notes": "AzScan 1.7.0 - a smarter mind + self-defense. New embedded-IOC intelligence reads the hard-coded command-and-control, exfiltration and payment indicators malware carries (Tor .onion addresses, public IP:port C2, paste/anon staging hosts, ngrok/cloudflared tunnels, Bitcoin wallets) - catching intent even in unknown or AI-generated samples, all mapped to MITRE ATT&CK. New self-defense: while real-time protection is on, a cooperating watchdog relaunches the app if it is killed and re-asserts its auto-start. Builds on the Anti-Trojan ATT&CK engine, RansomShield and the AI/script + 56M-hash stack.",
+  "notes": "AzScan 1.8.0 - adds an owner fleet dashboard. With the new Terms accepted, each install reports anonymous aggregate stats (a random install id, edition/version/OS, and counters for threats blocked, files scanned and quarantined, plus detection names) so the owner can see how many PCs run AzScan and how many threats it has stopped. No file contents, paths or personal data are collected. Pressing Update now requires accepting the updated Terms. Builds on RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "CDF62C08662ED7567262E9E4FE7AAFFF3FB08B73EE058A0B4ADA3305E2128BAE",
+  "programSha256": "7D6298843226BB16660989F6F9C7DD7D1556365050FCED0F721E93A4EEB8C6E2",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "1206307D096704B4A98EF6E51933D72C89BB418E962925127C3E79C5BB4F91E0",
+  "programSha256Demo": "55D439DC0D3CF408EDC2AE6EFA2CA122F7CC6D7543A6E5610866B9358F6146E8",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
