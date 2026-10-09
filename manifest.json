@@ -1,12 +1,12 @@
 {
-  "programVersion": "1.10.0",
-  "defsVersion": "2026.10.12",
-  "notes": "AzScan 1.10.0 - adds anti-zip-bomb protection: archives are checked for decompression bombs (both flat high-ratio bombs and nested ones like 42.zip) using central-directory metadata and a bounded structural scan, so a malicious archive is named and quarantined instead of silently wedging the scanner. Includes the owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
+  "programVersion": "1.11.0",
+  "defsVersion": "2026.10.13",
+  "notes": "AzScan 1.11.0 - smarter anti-zip-bomb + anti-troll. Zip-bomb detection now also catches 'smart' bombs that LIE about their size in the directory (it verifies the real decompressed output under a bounded cap) and auto-quarantines a confirmed bomb. New anti-troll coverage: self-replicating (worm) scripts that copy themselves to spread, and screen/desktop defacers that flip the display, invert colours via the gamma ramp, swap the mouse buttons, hijack the wallpaper or hide desktop icons - mapped to MITRE ATT&CK (T1091 replication, T1491.001 internal defacement). Includes owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "5DCF8BA19415BA5B98FC798926803A2E32513DB6D7EB5AB52EEEED4C779B9D94",
+  "programSha256": "C25C9E567682B7E00DAE6793EA0C8AF49279F7E3CB2C9645A4089B748BF9B175",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "90A5A9D5CEC4AB8E83DCB4FDA42DEFD30EA8DD2C6CEFB841A1241A8E813B9603",
+  "programSha256Demo": "04CDF0C3C90B70FFB2031ED5F2DFA82908FB641B87E30F8803FB54869561D555",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
