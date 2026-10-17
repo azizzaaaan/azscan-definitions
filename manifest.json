@@ -1,31 +1,61 @@
 {
-  "programVersion": "1.13.0",
+  "programVersion": "1.14.0",
   "defsVersion": "2026.10.14",
-  "notes": "AzScan 1.13.0 - all-new interface + much broader malware coverage. The whole app is rebuilt around the new design (dashboard, scan, quarantine, protection, updates and about - every page), with live threat counts, real scans and one-click quarantine restore. Detection is widened well beyond trojans and ransomware: cryptominers (XMRig / stratum pools), network worms (EternalBlue / MS17-010), kernel rootkits (DKOM process-unlinking), clipboard bankers that swap crypto-wallet addresses, IRC/DDoS bots, banking form-grabbers, credential dumpers (Mimikatz / LSASS), Meterpreter and RAT families (njRAT, Remcos) and fileless PowerShell loaders - each mapped to MITRE ATT&CK. Keeps the smart anti-zip-bomb + anti-troll engine, owner fleet telemetry, RansomShield, the Anti-Trojan ATT&CK engine, IOC intelligence and the self-defense watchdog.",
+  "notes": "AzScan 1.14.0 - security hardening \u002B cleaner interface. Over-the-air updates are now cryptographically signed end to end: the app verifies an ECDSA signature on the update manifest AND the SHA-256 of the definitions bundle before applying anything, so a tampered or man-in-the-middle update is refused. Telemetry can only ever be sent to AzScan\u0027s own endpoint (hard-coded allowlist). Ransomware decoy (canary) filenames are now generated per install instead of being fixed, the control pipe is locked down to SYSTEM/Administrators, and the version check reads the real assembly version. Interface: the Threat Intelligence page is cleaner (internal sourcing and per-family detail moved to a dev-only view), with more breathing room and polish throughout. Keeps the full malware-category coverage, RansomShield, the Anti-Trojan ATT\u0026CK engine, IOC intelligence and the self-defense watchdog.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
+  "defsSha256": "30c185be46e0d7df11cdcacfbf3763002a7a4a8c06fcd2448f1faea2a238cd28",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "8C2A38E95EFF9A3F3C663360E40BF9A3D872FE3AC5B4477FF93BAECB5E9C253F",
+  "programSha256": "1C694004C22689293E7F9F0084138E1E0E6A5D0B014012047319DCF3AD5CFFD5",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "A7930C1E2C183B0DAC0AE80CF8E4BB9955E07F5AF5027489E2F05CAA7098E859",
+  "programSha256Demo": "708B692DABB145BA850B58A198E4F9A9CE9F0460F32BCDB05CB6A9891B51D2A8",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
     "hashCount": 56066192,
     "totalBytes": 1004165011,
     "files": [
-      { "name": "md5.bin",       "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/md5.bin",       "bytes": 776099376 },
-      { "name": "sha256.bin",    "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha256.bin",    "bytes": 204975488 },
-      { "name": "sha1.bin",      "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha1.bin",      "bytes": 23089940 },
-      { "name": "manifest.json", "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/manifest.json", "bytes": 207 }
+      {
+        "name": "md5.bin",
+        "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/md5.bin",
+        "bytes": 776099376
+      },
+      {
+        "name": "sha256.bin",
+        "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha256.bin",
+        "bytes": 204975488
+      },
+      {
+        "name": "sha1.bin",
+        "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha1.bin",
+        "bytes": 23089940
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/manifest.json",
+        "bytes": 207
+      }
     ]
   },
   "databaseLite": {
     "hashCount": 7559981,
     "totalBytes": 228065635,
     "files": [
-      { "name": "sha256.bin",    "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha256.bin",    "bytes": 204975488 },
-      { "name": "sha1.bin",      "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha1.bin",      "bytes": 23089940 },
-      { "name": "manifest.json", "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/manifest.json", "bytes": 207 }
+      {
+        "name": "sha256.bin",
+        "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha256.bin",
+        "bytes": 204975488
+      },
+      {
+        "name": "sha1.bin",
+        "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/sha1.bin",
+        "bytes": 23089940
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/azizzaaaan/azscan-definitions/releases/download/db-latest/manifest.json",
+        "bytes": 207
+      }
     ]
-  }
+  },
+  "signature": "8geaKMGFjYGruTySAipW7U/boDvDg/ToQf3Z66QYemAkLjVzIjp/\u002BOfohf78s4XGNtbfWhyU1rruTrWmv/8\u002BQw=="
 }
