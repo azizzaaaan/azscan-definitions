@@ -1,13 +1,13 @@
 {
-  "programVersion": "1.18.0",
-  "defsVersion": "2026.11.08.2",
-  "notes": "AzScan 1.18.0 - interface that does more. The Scan page\u0027s \u0027Custom folder\u0027 option now opens a real folder picker and scans exactly the folder you choose. The Settings switches for RansomShield automatic response and the self-defense watchdog are now real, persistent controls (they were display-only before). Keeps signed OTA updates, AES-encrypted quarantine, the full malware-family coverage and the Anti-Trojan ATT\u0026CK engine.",
+  "programVersion": "1.19.0",
+  "defsVersion": "2026.11.08.3",
+  "notes": "AzScan 1.19.0 - a quarantine threshold you can set, plus more coverage. The Settings page now lets you pick the minimum severity that gets auto-quarantined (Low / Medium / High) - every switch on that page is now a real, saved control. Adds detection for SectopRAT (Arechclient2) and Babuk ransomware. Keeps signed OTA updates, AES-encrypted quarantine and the Anti-Trojan ATT\u0026CK engine.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
-  "defsSha256": "6e6c5167c4fbca245667dba1da7bfdb160b1ea2a1a0dd1e37afb9f15701bb4db",
+  "defsSha256": "673d014607e8b9bcb6f5e53d07191da13e79eb3b8a567ac136219af1b03d4c85",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "D5737CDA7BED0B454E08A269171B5354F28E17355791ADB105EE87FDA69F60A6",
+  "programSha256": "3E2E71F70A2D42019DAA5E0160F0AA3A83933B2D61CF4EAF2AB9E66E4453658D",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "7E702987E39C7FD0480619FC856EBDA38F62E8B03EB274EE6ABC5ED873CE712E",
+  "programSha256Demo": "85AEF3CF05D59FF460034E01BAD0B63800E45C55DCD2F6423BA7B6E7BF220D3D",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
@@ -57,5 +57,5 @@
       }
     ]
   },
-  "signature": "RlQwSJnEeUtClry9PizPd6dDvlEuEYZIGKrM\u002B4Fhj9/9tiUMWU\u002B6H6PaD09jGWBIHddzp1nR938jn7Mh\u002BIMhvw=="
+  "signature": "bL6BtNVQuptWxBn1RTLYChCNhOssGdcHTaxCS3QtcChRDmMLNo\u002ByJDCOSfcCWvnuZ83WCMQR8wSOWtL0SFuqNA=="
 }
