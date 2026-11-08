@@ -1,13 +1,13 @@
 {
-  "programVersion": "1.17.0",
+  "programVersion": "1.18.0",
   "defsVersion": "2026.11.08.2",
-  "notes": "AzScan 1.17.0 - current-threat \u002B unwanted-software coverage. Detects the ClickFix fake-CAPTCHA technique (a page that copies a PowerShell/mshta command to your clipboard and tells you to paste it into Win\u002BR - a top 2024-2025 infection method), and flags common bundleware/adware (InstallCore, OpenCandy, DealPly, Wajam, DomaIQ, Amonetize, Conduit/SearchProtect) as reversible \u0027potentially unwanted\u0027 riskware. Keeps signed OTA updates, AES-encrypted quarantine, RansomShield and the Anti-Trojan ATT\u0026CK engine.",
+  "notes": "AzScan 1.18.0 - interface that does more. The Scan page\u0027s \u0027Custom folder\u0027 option now opens a real folder picker and scans exactly the folder you choose. The Settings switches for RansomShield automatic response and the self-defense watchdog are now real, persistent controls (they were display-only before). Keeps signed OTA updates, AES-encrypted quarantine, the full malware-family coverage and the Anti-Trojan ATT\u0026CK engine.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "defsSha256": "6e6c5167c4fbca245667dba1da7bfdb160b1ea2a1a0dd1e37afb9f15701bb4db",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "5DCD143343A076CE332F9D1C237AED1CBB41D87B03DE1F6EC72BF5A60635CFA3",
+  "programSha256": "D5737CDA7BED0B454E08A269171B5354F28E17355791ADB105EE87FDA69F60A6",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "644EA3537DAF7DB3EAFA41D2E08FF9A2A884F350AE9B1766761AEE2F27CB4FA9",
+  "programSha256Demo": "7E702987E39C7FD0480619FC856EBDA38F62E8B03EB274EE6ABC5ED873CE712E",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
@@ -57,5 +57,5 @@
       }
     ]
   },
-  "signature": "juVYV51y6pU\u002B8oLgzAhAUD9tJiHeEecuw4lNCxXgXwx43Tn9BS7IcLyzzV2yK/AQLl4KNwm/g6Fzg8WoMLgmwQ=="
+  "signature": "RlQwSJnEeUtClry9PizPd6dDvlEuEYZIGKrM\u002B4Fhj9/9tiUMWU\u002B6H6PaD09jGWBIHddzp1nR938jn7Mh\u002BIMhvw=="
 }
