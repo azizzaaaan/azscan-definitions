@@ -1,13 +1,13 @@
 {
-  "programVersion": "1.16.0",
-  "defsVersion": "2026.11.08.1",
-  "notes": "AzScan 1.16.0 - stronger quarantine \u002B more coverage. Quarantined files are now stored with authenticated AES-256-GCM encryption under a random per-install key (the old reversible XOR obfuscation is gone); items quarantined by older builds still restore. Adds detection for a JSP command-injection web shell and several server/IoT threats (HawkEye keylogger, Gafgyt/Bashlite, Tsunami/Kaiten, XorDDoS, Kinsing). Keeps signed over-the-air updates, RansomShield, the Anti-Trojan ATT\u0026CK engine and the self-defense watchdog.",
+  "programVersion": "1.17.0",
+  "defsVersion": "2026.11.08.2",
+  "notes": "AzScan 1.17.0 - current-threat \u002B unwanted-software coverage. Detects the ClickFix fake-CAPTCHA technique (a page that copies a PowerShell/mshta command to your clipboard and tells you to paste it into Win\u002BR - a top 2024-2025 infection method), and flags common bundleware/adware (InstallCore, OpenCandy, DealPly, Wajam, DomaIQ, Amonetize, Conduit/SearchProtect) as reversible \u0027potentially unwanted\u0027 riskware. Keeps signed OTA updates, AES-encrypted quarantine, RansomShield and the Anti-Trojan ATT\u0026CK engine.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
-  "defsSha256": "ef0fa136bc8c2f854c2d94a0c69015063c45ad707dd016cf0bcde3719430d00e",
+  "defsSha256": "6e6c5167c4fbca245667dba1da7bfdb160b1ea2a1a0dd1e37afb9f15701bb4db",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "1629924DF7095A3C7F9395C387CB55F3113639099076E3249A8D0467FADFED14",
+  "programSha256": "5DCD143343A076CE332F9D1C237AED1CBB41D87B03DE1F6EC72BF5A60635CFA3",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "AD69D7DFAF636490F653D6E809EDEC750C1E5021A320911F5672FF497A073351",
+  "programSha256Demo": "644EA3537DAF7DB3EAFA41D2E08FF9A2A884F350AE9B1766761AEE2F27CB4FA9",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
@@ -57,5 +57,5 @@
       }
     ]
   },
-  "signature": "BXIsWBXUtCKLrPf\u002Bmgyaby797gHqXNy6zp4CLhFfPa1das3irBWxqnKPLMUd7cWhlknBMbHNgmDfGfnRxNHdfw=="
+  "signature": "juVYV51y6pU\u002B8oLgzAhAUD9tJiHeEecuw4lNCxXgXwx43Tn9BS7IcLyzzV2yK/AQLl4KNwm/g6Fzg8WoMLgmwQ=="
 }
