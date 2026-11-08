@@ -1,13 +1,13 @@
 {
-  "programVersion": "1.20.0",
+  "programVersion": "1.21.0",
   "defsVersion": "2026.11.08.4",
-  "notes": "AzScan 1.20.0 - more ransomware coverage \u002B a cleaner results list. Adds signatures for Maze, Zeppelin, Ragnar Locker, Egregor, Makop and BlackByte ransomware. Fixes a cosmetic issue where a rule that shipped both built-in and in a definitions update could report the same detection twice. Keeps signed OTA updates, AES-encrypted quarantine and the Anti-Trojan ATT\u0026CK engine.",
+  "notes": "AzScan 1.21.0 - clearer threat explanations. When a web shell, botnet/DDoS bot, a ClickFix fake-CAPTCHA scam, or potentially-unwanted bundleware is found, AzScan now names it in plain English (e.g. \u0027Web Shell\u0027, \u0027Botnet / DDoS Bot\u0027, \u0027Scam / Fake-CAPTCHA Lure\u0027, \u0027Potentially Unwanted Program\u0027) instead of a generic label. Keeps signed OTA updates, AES-encrypted quarantine and the full malware-family coverage.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
   "defsSha256": "0686a4f0422d3b6225f7f5c4638ea48a9c39fed537aebc633393b39540c0176a",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "8826208059C280F7E418CA6AE986AB6C1AEE909B10B997F4932A9B6EB830384B",
+  "programSha256": "8666B4604F562A9A2CF1B5C94D5FD30BDE4B5E36B9148A9A7B0ACF79C5805F1D",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "C8CC2067073942FD07F80A68FA700E1A308ED2DC077734AEA7AA55A869C97DF0",
+  "programSha256Demo": "5DC1B919B5BB417A556AA53DA515C045067DD409F975217D603252736D174673",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
@@ -57,5 +57,5 @@
       }
     ]
   },
-  "signature": "RwC8v44vjepJkoIp9Y/2wfPs6/B6vOx6sw\u002BJN9hz9Ei2L0sc8IwLKcqzRUwczhT3WvRLjIyAC/EmCDKfDEXvQA=="
+  "signature": "yiw2c/v62HYg7MwxINlufK8BMTObdQqkblqGkIK45n5\u002BZB91hWSi1uRbaX\u002BXJ64H5R9FY53ICXPZe86HdaaJYA=="
 }
