@@ -1,13 +1,13 @@
 {
-  "programVersion": "1.15.0",
-  "defsVersion": "2026.11.08",
-  "notes": "AzScan 1.15.0 - broader, up-to-date detection. Adds signatures for today\u0027s most active malware families: ransomware (Akira, Black Basta, Royal/BlackSuit, Rhysida, Medusa, MedusaLocker, Cactus, Cl0p, BianLian, AvosLocker, Hive, Qilin, INC, Mallox, Trigona, Cuba, Phobos, Dharma, Nokoyawa), info-stealers (RedLine, Lumma, StealC, Azorult, Meduza) and remote-access trojans (XWorm, DcRat, VenomRAT, NetWire, Warzone/AveMaria, Orcus, Gh0st, PlugX) - each mapped to its category and MITRE ATT\u0026CK, with multi-indicator rules tuned to avoid false alarms. Plus internal robustness fixes. Keeps signed over-the-air updates, RansomShield, the Anti-Trojan ATT\u0026CK engine and the self-defense watchdog.",
+  "programVersion": "1.16.0",
+  "defsVersion": "2026.11.08.1",
+  "notes": "AzScan 1.16.0 - stronger quarantine \u002B more coverage. Quarantined files are now stored with authenticated AES-256-GCM encryption under a random per-install key (the old reversible XOR obfuscation is gone); items quarantined by older builds still restore. Adds detection for a JSP command-injection web shell and several server/IoT threats (HawkEye keylogger, Gafgyt/Bashlite, Tsunami/Kaiten, XorDDoS, Kinsing). Keeps signed over-the-air updates, RansomShield, the Anti-Trojan ATT\u0026CK engine and the self-defense watchdog.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
-  "defsSha256": "959823bb1b317e5eea45ddf713a9573dda028e4bccae9cc85ef1c9422f69373a",
+  "defsSha256": "ef0fa136bc8c2f854c2d94a0c69015063c45ad707dd016cf0bcde3719430d00e",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "E3304CD9138A844D4D0D0C31CE428E9308C782B48BB72C7F75C4A19A7A8C577C",
+  "programSha256": "1629924DF7095A3C7F9395C387CB55F3113639099076E3249A8D0467FADFED14",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "D4AADA62FCD0A093C2B522437080C5A72716C68AD8C718CF9F84A999E368AD54",
+  "programSha256Demo": "AD69D7DFAF636490F653D6E809EDEC750C1E5021A320911F5672FF497A073351",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
@@ -57,5 +57,5 @@
       }
     ]
   },
-  "signature": "4fZ2xSMP9GyOHmo\u002BjAOChLJpq4aHCPZA17fMVrp7axSsn8uAdfcGuIdLXHVaqbK7STw0Nv0ZTjhPqeU/3DOY6A=="
+  "signature": "BXIsWBXUtCKLrPf\u002Bmgyaby797gHqXNy6zp4CLhFfPa1das3irBWxqnKPLMUd7cWhlknBMbHNgmDfGfnRxNHdfw=="
 }
