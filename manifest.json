@@ -1,13 +1,13 @@
 {
-  "programVersion": "1.19.0",
-  "defsVersion": "2026.11.08.3",
-  "notes": "AzScan 1.19.0 - a quarantine threshold you can set, plus more coverage. The Settings page now lets you pick the minimum severity that gets auto-quarantined (Low / Medium / High) - every switch on that page is now a real, saved control. Adds detection for SectopRAT (Arechclient2) and Babuk ransomware. Keeps signed OTA updates, AES-encrypted quarantine and the Anti-Trojan ATT\u0026CK engine.",
+  "programVersion": "1.20.0",
+  "defsVersion": "2026.11.08.4",
+  "notes": "AzScan 1.20.0 - more ransomware coverage \u002B a cleaner results list. Adds signatures for Maze, Zeppelin, Ragnar Locker, Egregor, Makop and BlackByte ransomware. Fixes a cosmetic issue where a rule that shipped both built-in and in a definitions update could report the same detection twice. Keeps signed OTA updates, AES-encrypted quarantine and the Anti-Trojan ATT\u0026CK engine.",
   "defsUrl": "https://raw.githubusercontent.com/azizzaaaan/azscan-definitions/main/defs.zip",
-  "defsSha256": "673d014607e8b9bcb6f5e53d07191da13e79eb3b8a567ac136219af1b03d4c85",
+  "defsSha256": "0686a4f0422d3b6225f7f5c4638ea48a9c39fed537aebc633393b39540c0176a",
   "programUrl": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan.exe",
-  "programSha256": "3E2E71F70A2D42019DAA5E0160F0AA3A83933B2D61CF4EAF2AB9E66E4453658D",
+  "programSha256": "8826208059C280F7E418CA6AE986AB6C1AEE909B10B997F4932A9B6EB830384B",
   "programUrlDemo": "https://github.com/azizzaaaan/azscan-definitions/releases/download/demo-latest/AzScan-Demo.exe",
-  "programSha256Demo": "85AEF3CF05D59FF460034E01BAD0B63800E45C55DCD2F6423BA7B6E7BF220D3D",
+  "programSha256Demo": "C8CC2067073942FD07F80A68FA700E1A308ED2DC077734AEA7AA55A869C97DF0",
   "telemetryUrl": "https://azscan-telemetry.3ziz.workers.dev/ingest",
   "telemetryKey": "azscan-fleet-key-01",
   "database": {
@@ -57,5 +57,5 @@
       }
     ]
   },
-  "signature": "bL6BtNVQuptWxBn1RTLYChCNhOssGdcHTaxCS3QtcChRDmMLNo\u002ByJDCOSfcCWvnuZ83WCMQR8wSOWtL0SFuqNA=="
+  "signature": "RwC8v44vjepJkoIp9Y/2wfPs6/B6vOx6sw\u002BJN9hz9Ei2L0sc8IwLKcqzRUwczhT3WvRLjIyAC/EmCDKfDEXvQA=="
 }
